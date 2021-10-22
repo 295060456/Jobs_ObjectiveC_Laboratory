@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests
+@end

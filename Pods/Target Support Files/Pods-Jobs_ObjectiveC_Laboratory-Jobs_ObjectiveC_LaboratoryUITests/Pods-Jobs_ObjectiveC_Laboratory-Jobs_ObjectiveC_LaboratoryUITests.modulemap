@@ -1,0 +1,6 @@
+framework module Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests {
+  umbrella header "Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

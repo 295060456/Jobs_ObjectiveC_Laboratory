@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Aspects in Pods, no dependencies
+Pods-Jobs_ObjectiveC_Laboratory in Pods, depends on:
+Aspects in Pods (explicit)
+Jobs_ObjectiveC_Laboratory in Jobs_ObjectiveC_Laboratory, depends on:
+Pods-Jobs_ObjectiveC_Laboratory in Pods (implicit dependency via file 'Pods_Jobs_ObjectiveC_Laboratory.framework' in build phase 'Link Binary')
+Aspects in Pods (implicit dependency via options '-framework Aspects' in build setting 'OTHER_LDFLAGS')
