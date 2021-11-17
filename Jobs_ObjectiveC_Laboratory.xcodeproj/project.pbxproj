@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2E55F9A3DFE931DBD7C78E01 /* Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E2376F6D32BA50A9BE25B0 /* Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework */; };
+		84588B712743EE6500119697 /* NSString+TYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 84588B702743EE6500119697 /* NSString+TYAdd.m */; };
+		84B578CD27438E5000261BE9 /* UINavigationController+SafeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578CC27438E5000261BE9 /* UINavigationController+SafeTransition.m */; };
+		84B578D127438E5A00261BE9 /* TYFFSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578CF27438E5A00261BE9 /* TYFFSwizzle.m */; };
+		84B578D827438EB800261BE9 /* UIDevice+TYHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578D427438EB800261BE9 /* UIDevice+TYHardware.m */; };
+		84B578D927438EB800261BE9 /* UIDevice+TYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578D527438EB800261BE9 /* UIDevice+TYDeviceInfo.m */; };
+		84B578DA27438EB800261BE9 /* iPhoneTypeDefine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B578D627438EB800261BE9 /* iPhoneTypeDefine.plist */; };
+		84B578DE2743904700261BE9 /* UIViewController+DebugShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578DD2743904700261BE9 /* UIViewController+DebugShow.m */; };
+		84B578E42743927900261BE9 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578E12743927900261BE9 /* YYFPSLabel.m */; };
+		84B578E52743927900261BE9 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578E32743927900261BE9 /* YYWeakProxy.m */; };
+		84B578EA274392DA00261BE9 /* TYFBinaryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578E9274392DA00261BE9 /* TYFBinaryTool.m */; };
+		84B578EE274394B400261BE9 /* NSUserDefaults+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578EC274394B400261BE9 /* NSUserDefaults+Identifier.m */; };
 		C54B00202722E51200A438A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B001F2722E51200A438A7 /* AppDelegate.m */; };
 		C54B00232722E51200A438A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B00222722E51200A438A7 /* SceneDelegate.m */; };
 		C54B00262722E51200A438A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B00252722E51200A438A7 /* ViewController.m */; };
@@ -51,6 +62,27 @@
 		3F7A8EAE3E983CF4ABB389E5 /* Pods_Jobs_ObjectiveC_LaboratoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobs_ObjectiveC_LaboratoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3FD5C7EC98B07F0F74A07E /* Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.release.xcconfig"; path = "Target Support Files/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6BE6C3089B044DDA55E3E673 /* Pods_Jobs_ObjectiveC_Laboratory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobs_ObjectiveC_Laboratory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84588B6F2743EE6500119697 /* NSString+TYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYAdd.h"; sourceTree = "<group>"; };
+		84588B702743EE6500119697 /* NSString+TYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYAdd.m"; sourceTree = "<group>"; };
+		84B578CB27438E5000261BE9 /* UINavigationController+SafeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SafeTransition.h"; sourceTree = "<group>"; };
+		84B578CC27438E5000261BE9 /* UINavigationController+SafeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SafeTransition.m"; sourceTree = "<group>"; };
+		84B578CF27438E5A00261BE9 /* TYFFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFFSwizzle.m; sourceTree = "<group>"; };
+		84B578D027438E5A00261BE9 /* TYFFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFFSwizzle.h; sourceTree = "<group>"; };
+		84B578D327438EB800261BE9 /* UIDevice+TYDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TYDeviceInfo.h"; sourceTree = "<group>"; };
+		84B578D427438EB800261BE9 /* UIDevice+TYHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TYHardware.m"; sourceTree = "<group>"; };
+		84B578D527438EB800261BE9 /* UIDevice+TYDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TYDeviceInfo.m"; sourceTree = "<group>"; };
+		84B578D627438EB800261BE9 /* iPhoneTypeDefine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhoneTypeDefine.plist; sourceTree = "<group>"; };
+		84B578D727438EB800261BE9 /* UIDevice+TYHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TYHardware.h"; sourceTree = "<group>"; };
+		84B578DC2743904700261BE9 /* UIViewController+DebugShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DebugShow.h"; sourceTree = "<group>"; };
+		84B578DD2743904700261BE9 /* UIViewController+DebugShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DebugShow.m"; sourceTree = "<group>"; };
+		84B578E02743927900261BE9 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		84B578E12743927900261BE9 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		84B578E22743927900261BE9 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		84B578E32743927900261BE9 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		84B578E8274392DA00261BE9 /* TYFBinaryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFBinaryTool.h; sourceTree = "<group>"; };
+		84B578E9274392DA00261BE9 /* TYFBinaryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFBinaryTool.m; sourceTree = "<group>"; };
+		84B578EC274394B400261BE9 /* NSUserDefaults+Identifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Identifier.m"; sourceTree = "<group>"; };
+		84B578ED274394B400261BE9 /* NSUserDefaults+Identifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Identifier.h"; sourceTree = "<group>"; };
 		8C674FB996E420073B09CC0A /* Pods-Jobs_ObjectiveC_LaboratoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobs_ObjectiveC_LaboratoryTests.debug.xcconfig"; path = "Target Support Files/Pods-Jobs_ObjectiveC_LaboratoryTests/Pods-Jobs_ObjectiveC_LaboratoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5E2376F6D32BA50A9BE25B0 /* Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A753686EAD52A21CE17116E4 /* Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +172,98 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		84588B6E2743EE5B00119697 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				84588B6F2743EE6500119697 /* NSString+TYAdd.h */,
+				84588B702743EE6500119697 /* NSString+TYAdd.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		84B578C927438E3A00261BE9 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				84588B6E2743EE5B00119697 /* NSString */,
+				84B578EB274394AA00261BE9 /* NSUserDefaults */,
+				84B578E7274392D100261BE9 /* Tools */,
+				84B578DF2743926E00261BE9 /* YYFPSLabel */,
+				84B578DB27438FA600261BE9 /* UIViewController */,
+				84B578D227438EB800261BE9 /* UIDevice */,
+				84B578CE27438E5A00261BE9 /* TYFSwizzle */,
+				84B578CA27438E5000261BE9 /* UINavigationController */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		84B578CA27438E5000261BE9 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				84B578CB27438E5000261BE9 /* UINavigationController+SafeTransition.h */,
+				84B578CC27438E5000261BE9 /* UINavigationController+SafeTransition.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		84B578CE27438E5A00261BE9 /* TYFSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				84B578CF27438E5A00261BE9 /* TYFFSwizzle.m */,
+				84B578D027438E5A00261BE9 /* TYFFSwizzle.h */,
+			);
+			path = TYFSwizzle;
+			sourceTree = "<group>";
+		};
+		84B578D227438EB800261BE9 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				84B578D327438EB800261BE9 /* UIDevice+TYDeviceInfo.h */,
+				84B578D427438EB800261BE9 /* UIDevice+TYHardware.m */,
+				84B578D527438EB800261BE9 /* UIDevice+TYDeviceInfo.m */,
+				84B578D627438EB800261BE9 /* iPhoneTypeDefine.plist */,
+				84B578D727438EB800261BE9 /* UIDevice+TYHardware.h */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		84B578DB27438FA600261BE9 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84B578DC2743904700261BE9 /* UIViewController+DebugShow.h */,
+				84B578DD2743904700261BE9 /* UIViewController+DebugShow.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		84B578DF2743926E00261BE9 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				84B578E02743927900261BE9 /* YYFPSLabel.h */,
+				84B578E12743927900261BE9 /* YYFPSLabel.m */,
+				84B578E22743927900261BE9 /* YYWeakProxy.h */,
+				84B578E32743927900261BE9 /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		84B578E7274392D100261BE9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				84B578E8274392DA00261BE9 /* TYFBinaryTool.h */,
+				84B578E9274392DA00261BE9 /* TYFBinaryTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		84B578EB274394AA00261BE9 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				84B578ED274394B400261BE9 /* NSUserDefaults+Identifier.h */,
+				84B578EC274394B400261BE9 /* NSUserDefaults+Identifier.m */,
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
 		C54B00122722E51200A438A7 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				C54B00322722E51400A438A7 /* Info.plist */,
+				84B578C927438E3A00261BE9 /* Test */,
 				C54B00592722E57100A438A7 /* 链式编程+协议 */,
 				C54B005C2722E57100A438A7 /* 使用Runtime的hook技术为tableView实现一个空白缺省页 */,
 				C54B006C2722E5A100A438A7 /* Main */,
@@ -367,6 +492,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B578DA27438EB800261BE9 /* iPhoneTypeDefine.plist in Resources */,
 				C54B00312722E51400A438A7 /* LaunchScreen.storyboard in Resources */,
 				C54B002E2722E51400A438A7 /* Assets.xcassets in Resources */,
 				C54B00292722E51200A438A7 /* Main.storyboard in Resources */,
@@ -498,15 +624,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54B00342722E51400A438A7 /* main.m in Sources */,
+				84B578CD27438E5000261BE9 /* UINavigationController+SafeTransition.m in Sources */,
+				84B578D127438E5A00261BE9 /* TYFFSwizzle.m in Sources */,
 				C54B00662722E57100A438A7 /* NoDataEmptyView.m in Sources */,
 				C54B00642722E57100A438A7 /* SQLToolTwo.m in Sources */,
 				C54B002C2722E51200A438A7 /* Jobs_ObjectiveC_Laboratory.xcdatamodeld in Sources */,
+				84B578D927438EB800261BE9 /* UIDevice+TYDeviceInfo.m in Sources */,
+				84B578E42743927900261BE9 /* YYFPSLabel.m in Sources */,
+				84B578DE2743904700261BE9 /* UIViewController+DebugShow.m in Sources */,
 				C54B00262722E51200A438A7 /* ViewController.m in Sources */,
 				C54B00632722E57100A438A7 /* NSBundle+XYQInfomation.m in Sources */,
 				C54B00652722E57100A438A7 /* DataTableViewController.m in Sources */,
+				84B578EA274392DA00261BE9 /* TYFBinaryTool.m in Sources */,
 				C54B00202722E51200A438A7 /* AppDelegate.m in Sources */,
+				84588B712743EE6500119697 /* NSString+TYAdd.m in Sources */,
 				C54B006B2722E57900A438A7 /* ViewControllerConfigure.m in Sources */,
+				84B578E52743927900261BE9 /* YYWeakProxy.m in Sources */,
+				84B578EE274394B400261BE9 /* NSUserDefaults+Identifier.m in Sources */,
 				C54B00672722E57100A438A7 /* UITableView+ReloadData.m in Sources */,
+				84B578D827438EB800261BE9 /* UIDevice+TYHardware.m in Sources */,
 				C54B00232722E51200A438A7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

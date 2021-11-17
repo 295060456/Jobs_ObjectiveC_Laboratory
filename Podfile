@@ -7,6 +7,7 @@ target 'Jobs_ObjectiveC_Laboratory' do
 
   # Pods for Jobs_ObjectiveC_Laboratory
   pod "Aspects"
+  pod 'LookinServer', :configurations => ['Debug'] # https://lookin.work/
 
   target 'Jobs_ObjectiveC_LaboratoryTests' do
     inherit! :search_paths
