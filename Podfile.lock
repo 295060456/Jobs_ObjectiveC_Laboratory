@@ -1,20 +1,24 @@
 PODS:
   - Aspects (1.4.1)
   - LookinServer (1.0.4)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - Aspects
   - LookinServer
+  - YYModel
 
 SPEC REPOS:
   trunk:
     - Aspects
     - LookinServer
+    - YYModel
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 70d31e33235e61cc7821acba5860f897a4566952
+PODFILE CHECKSUM: 1ac5a075a74a6264b7a173199414deaffba748ef
 
 COCOAPODS: 1.11.2

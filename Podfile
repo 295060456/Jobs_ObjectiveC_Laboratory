@@ -6,6 +6,7 @@ target 'Jobs_ObjectiveC_Laboratory' do
   use_frameworks!
 
   # Pods for Jobs_ObjectiveC_Laboratory
+  pod 'YYModel'
   pod "Aspects"
   pod 'LookinServer', :configurations => ['Debug'] # https://lookin.work/
 
