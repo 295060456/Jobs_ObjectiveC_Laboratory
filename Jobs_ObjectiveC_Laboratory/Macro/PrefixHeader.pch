@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  Jobs_ObjectiveC_Laboratory
+//
+//  Created by Jobs on 2021/11/22.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#if __has_include(<Masonry/Masonry.h>)
+#import <Masonry/Masonry.h>
+#else
+#import "Masonry.h"
+#endif
+
+#import "RACmetamacros.h"
+#import "RACEXTScope.h"
+#import "RACEXTKeyPathCoding.h"
+#import "RACEXTRuntimeExtensions.h"
+
+
+///// https://www.jianshu.com/p/9e18f28bf28d
+
+
+//#define weakify(...) \
+//  rac_keywordify \
+//  metamacro_foreach_cxt(rac_weakify_,, __weak, __VA_ARGS__)
+//
+//
+//#if DEBUG
+//#define rac_keywordify autoreleasepool {}
+//#else
+//#define rac_keywordify try {} @catch (...) {}
+//#endif
+//
+//
+//#define metamacro_foreach_cxt(MACRO, SEP, CONTEXT, ...) \
+//      metamacro_concat(metamacro_foreach_cxt, metamacro_argcount(__VA_ARGS__))(MACRO, SEP, CONTEXT, __VA_ARGS__)
+//
+//#define metamacro_argcount(...) \
+//      metamacro_at(20, __VA_ARGS__, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1)
+//
+//#define metamacro_concat(A, B) \
+//      metamacro_concat_(A, B)
+//
+//#define metamacro_foreach_cxt1(MACRO, SEP, CONTEXT, _0) MACRO(0, CONTEXT, _0)
+//
+//#define rac_weakify_(INDEX, CONTEXT, VAR) \
+//  CONTEXT __typeof__(VAR) metamacro_concat(VAR, _weak_) = (VAR);
+//
+//
+
+
+
+#endif /* PrefixHeader_pch */
