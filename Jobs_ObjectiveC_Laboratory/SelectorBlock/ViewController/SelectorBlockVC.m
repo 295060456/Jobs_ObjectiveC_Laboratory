@@ -54,7 +54,7 @@ UITableViewDelegate
                              arg4];
     
     [NSObject methodName:@"test:withArg2:andArg3:block:"
-                  target:self
+               targetObj:self
              paramarrays:paramarrays];
     
 //    [self methodName:@"test:withArg2:andArg3:block:"
