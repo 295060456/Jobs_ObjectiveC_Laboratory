@@ -1023,6 +1023,21 @@
 			path = SuspendView;
 			sourceTree = "<group>";
 		};
+		842F6FFE274E2062000E2DAE /* NSObject+Category */ = {
+			isa = PBXGroup;
+			children = (
+				84B3D555274D30B50005DF73 /* NSObject+Alert */,
+				84B3D55C274D30B50005DF73 /* NSObject+Others */,
+				84B3D575274D30B50005DF73 /* NSObject+DataSave */,
+				84B3D578274D30B50005DF73 /* NSObject+Time */,
+				84B3D57B274D30B50005DF73 /* NSObject+DataBinding */,
+				84B3D57E274D30B50005DF73 /* NSObject (Time) */,
+				84B3D584274D30B50005DF73 /* NSObject+DefConfig */,
+				84B3D587274D30B50005DF73 /* NSObject+CallBackInfoByBlock */,
+			);
+			path = "NSObject+Category";
+			sourceTree = "<group>";
+		};
 		843AAC842747E208000228A0 /* NSString+TYHash */ = {
 			isa = PBXGroup;
 			children = (
@@ -2350,15 +2365,8 @@
 		84B3D554274D30B50005DF73 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				84B3D555274D30B50005DF73 /* NSObject+Alert */,
-				84B3D55C274D30B50005DF73 /* NSObject+Others */,
-				84B3D575274D30B50005DF73 /* NSObject+DataSave */,
-				84B3D578274D30B50005DF73 /* NSObject+Time */,
-				84B3D57B274D30B50005DF73 /* NSObject+DataBinding */,
-				84B3D57E274D30B50005DF73 /* NSObject (Time) */,
+				842F6FFE274E2062000E2DAE /* NSObject+Category */,
 				84B3D581274D30B50005DF73 /* DDRecord */,
-				84B3D584274D30B50005DF73 /* NSObject+DefConfig */,
-				84B3D587274D30B50005DF73 /* NSObject+CallBackInfoByBlock */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
