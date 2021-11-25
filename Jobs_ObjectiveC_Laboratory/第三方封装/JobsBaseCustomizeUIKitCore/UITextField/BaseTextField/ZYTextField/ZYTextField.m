@@ -3,8 +3,6 @@
 
 @interface ZYTextField ()
 
-@property(nonatomic,assign)BOOL isOk;
-
 @end
 
 @implementation ZYTextField
@@ -18,10 +16,10 @@
 
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
-    if (!self.isOk) {
+    static dispatch_once_t dispatchOnce;
+    dispatch_once(&dispatchOnce, ^{
         [self setUpUI];
-        self.isOk = YES;
-    }
+    });
 }
 
 -(BOOL)canPerformAction:(SEL)action
@@ -50,7 +48,6 @@
     }
     // 不成为第一响应者
     [self resignFirstResponder];
-    self.isOk = YES;
 }
 /**
  * 当前文本框聚焦时就会调用
