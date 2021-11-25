@@ -1,7 +1,8 @@
-
 #import "ZYTextField.h"
 
 @interface ZYTextField ()
+
+@property(nonatomic,assign)BOOL isOk;
 
 @end
 
@@ -16,10 +17,10 @@
 
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
-    static dispatch_once_t dispatchOnce;
-    dispatch_once(&dispatchOnce, ^{
+    if (!self.isOk) {
         [self setUpUI];
-    });
+        self.isOk = YES;
+    }
 }
 
 -(BOOL)canPerformAction:(SEL)action
@@ -48,6 +49,7 @@
     }
     // 不成为第一响应者
     [self resignFirstResponder];
+    self.isOk = YES;
 }
 /**
  * 当前文本框聚焦时就会调用
@@ -199,7 +201,7 @@
 
 -(UIColor *)ZYtextColor{
     if (!_ZYtextColor) {
-        _ZYtextColor = KGreenColor;
+        _ZYtextColor = kWhiteColor;
     }return _ZYtextColor;
 }
 
