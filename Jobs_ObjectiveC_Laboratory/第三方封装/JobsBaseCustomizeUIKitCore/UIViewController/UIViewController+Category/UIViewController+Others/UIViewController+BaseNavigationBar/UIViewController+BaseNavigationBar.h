@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
 #import "BaseNavigationBar.h"
 #import "MacroDef_Cor.h"
 #import "MacroDef_Size.h"
