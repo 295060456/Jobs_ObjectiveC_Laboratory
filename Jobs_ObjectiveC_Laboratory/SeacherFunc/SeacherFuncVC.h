@@ -12,7 +12,7 @@
 #import "TestView.h"
 #import "UIView+SuspendView.h"
 #import "SuspendBtn.h"
-#import "NSString+Extras.h"
+#import "NSStringExtras.h"
 #import "GTProxy.h"
 #import "FileFolderHandleTool.h"
 
