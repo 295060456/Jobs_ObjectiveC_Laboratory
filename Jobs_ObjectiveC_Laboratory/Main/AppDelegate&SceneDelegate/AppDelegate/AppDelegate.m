@@ -44,6 +44,13 @@ static AppDelegate *static_appDelegate = nil;
 }
 
 -(void)testCoreData{
+    
+    /**
+     （1）NSConfinementConcurrencyType：此类型在iOS9之后被苹果弃用，所以不建议用这个API
+     （2）NSPrivateQueueConcurrencyType：代表私有并发队列的类型，操作也是在子线程中完成的
+     （3）NSMainQueueConcurrencyType：代表主并发队列类型，如果在操作过程中，需要涉及到UI操作，则应该使用这个参数初始化上下文完成操作
+     */
+    
     // 创建上下文对象，并发队列设置为主队列
     context = [NSManagedObjectContext.alloc initWithConcurrencyType:NSMainQueueConcurrencyType];
     // 创建托管对象模型，并使用Company.momd路径当做初始化参数
