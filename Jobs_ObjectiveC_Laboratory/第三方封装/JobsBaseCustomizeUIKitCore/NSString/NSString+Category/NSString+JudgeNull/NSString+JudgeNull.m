@@ -9,7 +9,7 @@
 
 @implementation NSString (JudgeNull)
 #pragma mark —— 判空
-- (BOOL)isNotBlank {
+-(BOOL)isNotBlank{
     NSCharacterSet *blank = NSCharacterSet.whitespaceAndNewlineCharacterSet;
     for (NSInteger i = 0; i < self.length; ++i) {
         unichar c = [self characterAtIndex:i];

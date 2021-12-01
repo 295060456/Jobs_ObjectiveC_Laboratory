@@ -197,6 +197,7 @@
 		84E6D52B2756576F002BB16E /* NSString+Replace.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D5222756576F002BB16E /* NSString+Replace.m */; };
 		84E751C9274E00340014B4F0 /* CustomZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E751C7274E00340014B4F0 /* CustomZFPlayerControlView.m */; };
 		84E751CD274E00B00014B4F0 /* CLLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E751CC274E00B00014B4F0 /* CLLanguageManager.m */; };
+		84F49A752757631600358510 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F49A742757631600358510 /* Employee.m */; };
 		C54B00202722E51200A438A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B001F2722E51200A438A7 /* AppDelegate.m */; };
 		C54B00232722E51200A438A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B00222722E51200A438A7 /* SceneDelegate.m */; };
 		C54B00292722E51200A438A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54B00272722E51200A438A7 /* Main.storyboard */; };
@@ -622,6 +623,8 @@
 		84E751C8274E00340014B4F0 /* CustomZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomZFPlayerControlView.h; sourceTree = "<group>"; };
 		84E751CB274E00B00014B4F0 /* CLLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLanguageManager.h; sourceTree = "<group>"; };
 		84E751CC274E00B00014B4F0 /* CLLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLanguageManager.m; sourceTree = "<group>"; };
+		84F49A732757631600358510 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		84F49A742757631600358510 /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		8C674FB996E420073B09CC0A /* Pods-Jobs_ObjectiveC_LaboratoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobs_ObjectiveC_LaboratoryTests.debug.xcconfig"; path = "Target Support Files/Pods-Jobs_ObjectiveC_LaboratoryTests/Pods-Jobs_ObjectiveC_LaboratoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5E2376F6D32BA50A9BE25B0 /* Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A753686EAD52A21CE17116E4 /* Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -796,6 +799,7 @@
 			children = (
 				C54B001E2722E51200A438A7 /* AppDelegate.h */,
 				C54B001F2722E51200A438A7 /* AppDelegate.m */,
+				84F49A72275762E600358510 /* CoreDataTest */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -2892,6 +2896,15 @@
 			path = CLLanguageManager;
 			sourceTree = "<group>";
 		};
+		84F49A72275762E600358510 /* CoreDataTest */ = {
+			isa = PBXGroup;
+			children = (
+				84F49A732757631600358510 /* Employee.h */,
+				84F49A742757631600358510 /* Employee.m */,
+			);
+			path = CoreDataTest;
+			sourceTree = "<group>";
+		};
 		C54B00122722E51200A438A7 = {
 			isa = PBXGroup;
 			children = (
@@ -3339,6 +3352,7 @@
 				C54B00662722E57100A438A7 /* NoDataEmptyView.m in Sources */,
 				84B3D5FE274D30B50005DF73 /* BaseNavigationVC.m in Sources */,
 				84E751CD274E00B00014B4F0 /* CLLanguageManager.m in Sources */,
+				84F49A752757631600358510 /* Employee.m in Sources */,
 				84B39D46274D01720005DF73 /* TestClass.m in Sources */,
 				84B3D5D0274D30B50005DF73 /* UIView+ViewController.m in Sources */,
 				84B3D618274D30B60005DF73 /* NSObject+Random.m in Sources */,
