@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2E55F9A3DFE931DBD7C78E01 /* Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E2376F6D32BA50A9BE25B0 /* Pods_Jobs_ObjectiveC_Laboratory_Jobs_ObjectiveC_LaboratoryUITests.framework */; };
+		840321BC2758E137009AB588 /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 840321AB2758E136009AB588 /* UITextField+Extend.m */; };
+		840321BD2758E137009AB588 /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 840321AF2758E137009AB588 /* HQTextField.m */; };
+		840321BE2758E137009AB588 /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 840321B12758E137009AB588 /* CJTextField.m */; };
+		840321BF2758E137009AB588 /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 840321B42758E137009AB588 /* ZYTextField.m */; };
+		840321C02758E137009AB588 /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 840321B52758E137009AB588 /* ZYTextField.bundle */; };
+		840321C12758E137009AB588 /* ZYTextField+HistoryDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 840321B62758E137009AB588 /* ZYTextField+HistoryDataList.m */; };
+		840321C22758E137009AB588 /* JobsMagicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 840321BA2758E137009AB588 /* JobsMagicTextField.m */; };
 		84037503274BD7C900D9079E /* SelectorBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374FE274BD7C800D9079E /* SelectorBlockVC.m */; };
 		84037504274BD7C900D9079E /* MKRankTBVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84037502274BD7C800D9079E /* MKRankTBVCell.m */; };
 		84037590274BD98300D9079E /* ButtonTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403758F274BD98300D9079E /* ButtonTimerVC.m */; };
@@ -15,13 +22,14 @@
 		840375C5274CA7F700D9079E /* 安全区域.png in Resources */ = {isa = PBXBuildFile; fileRef = 840375B7274CA7F700D9079E /* 安全区域.png */; };
 		840375C6274CA7F700D9079E /* iPhone尺寸.png in Resources */ = {isa = PBXBuildFile; fileRef = 840375B9274CA7F700D9079E /* iPhone尺寸.png */; };
 		840375C7274CA7F700D9079E /* iPad尺寸.png in Resources */ = {isa = PBXBuildFile; fileRef = 840375BA274CA7F700D9079E /* iPad尺寸.png */; };
-		840375F0274CAF5500D9079E /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 840375ED274CAF5500D9079E /* WHToast+DDToast.m */; };
-		840375F1274CAF5500D9079E /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840375EE274CAF5500D9079E /* toastLoading.gif */; };
 		84037662274CB57700D9079E /* RACEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403765D274CB57700D9079E /* RACEXTRuntimeExtensions.m */; };
 		84037676274CB6B100D9079E /* DispatchTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403766A274CB6B100D9079E /* DispatchTimerManager.m */; };
 		84037677274CB6B100D9079E /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403766E274CB6B100D9079E /* NSTimerManager.m */; };
 		84037678274CB6B100D9079E /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84037671274CB6B100D9079E /* Nanosecond_TimerManager.m */; };
 		84037679274CB6B100D9079E /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84037674274CB6B100D9079E /* CADisplayLink_TimerManager.m */; };
+		8403F5942758D1B9009AB588 /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8403F58E2758D1B9009AB588 /* toastLoading.gif */; };
+		8403F5952758D1B9009AB588 /* NSObject+WHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403F58F2758D1B9009AB588 /* NSObject+WHToast.m */; };
+		8403F5962758D1B9009AB588 /* NSObject+NTESVerifyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403F5932758D1B9009AB588 /* NSObject+NTESVerifyCode.m */; };
 		8405F174275888F100A9682A /* NSObject+AppTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F16E275888F100A9682A /* NSObject+AppTools.m */; };
 		8405F175275888F100A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md in Resources */ = {isa = PBXBuildFile; fileRef = 8405F170275888F100A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */; };
 		8405F176275888F100A9682A /* NSObject+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F173275888F100A9682A /* NSObject+UserInfo.m */; };
@@ -177,13 +185,6 @@
 		84B3D622274D30B60005DF73 /* NSObject+DefConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D585274D30B50005DF73 /* NSObject+DefConfig.m */; };
 		84B3D623274D30B60005DF73 /* NSObject+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D589274D30B50005DF73 /* NSObject+CallBackInfoByBlock.m */; };
 		84B3D624274D30B60005DF73 /* DebugLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D592274D30B50005DF73 /* DebugLogDescription.m */; };
-		84B3D625274D30B60005DF73 /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D597274D30B50005DF73 /* UITextField+Extend.m */; };
-		84B3D626274D30B60005DF73 /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D59B274D30B50005DF73 /* HQTextField.m */; };
-		84B3D627274D30B60005DF73 /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D59D274D30B50005DF73 /* CJTextField.m */; };
-		84B3D628274D30B60005DF73 /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D5A0274D30B50005DF73 /* ZYTextField.m */; };
-		84B3D629274D30B60005DF73 /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84B3D5A1274D30B50005DF73 /* ZYTextField.bundle */; };
-		84B3D62A274D30B60005DF73 /* ZYTextField+HistoryDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D5A2274D30B50005DF73 /* ZYTextField+HistoryDataList.m */; };
-		84B3D62B274D30B60005DF73 /* JobsMagicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3D5A6274D30B50005DF73 /* JobsMagicTextField.m */; };
 		84B578CD27438E5000261BE9 /* UINavigationController+SafeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578CC27438E5000261BE9 /* UINavigationController+SafeTransition.m */; };
 		84B578D827438EB800261BE9 /* UIDevice+TYHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578D427438EB800261BE9 /* UIDevice+TYHardware.m */; };
 		84B578D927438EB800261BE9 /* UIDevice+TYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B578D527438EB800261BE9 /* UIDevice+TYDeviceInfo.m */; };
@@ -247,6 +248,20 @@
 		3F7A8EAE3E983CF4ABB389E5 /* Pods_Jobs_ObjectiveC_LaboratoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobs_ObjectiveC_LaboratoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3FD5C7EC98B07F0F74A07E /* Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.release.xcconfig"; path = "Target Support Files/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests/Pods-Jobs_ObjectiveC_Laboratory-Jobs_ObjectiveC_LaboratoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6BE6C3089B044DDA55E3E673 /* Pods_Jobs_ObjectiveC_Laboratory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobs_ObjectiveC_Laboratory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840321AA2758E136009AB588 /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
+		840321AB2758E136009AB588 /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
+		840321AE2758E137009AB588 /* HQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
+		840321AF2758E137009AB588 /* HQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTextField.m; sourceTree = "<group>"; };
+		840321B12758E137009AB588 /* CJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
+		840321B22758E137009AB588 /* CJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextField.h; sourceTree = "<group>"; };
+		840321B42758E137009AB588 /* ZYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
+		840321B52758E137009AB588 /* ZYTextField.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYTextField.bundle; sourceTree = "<group>"; };
+		840321B62758E137009AB588 /* ZYTextField+HistoryDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYTextField+HistoryDataList.m"; sourceTree = "<group>"; };
+		840321B72758E137009AB588 /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
+		840321B82758E137009AB588 /* ZYTextField+HistoryDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYTextField+HistoryDataList.h"; sourceTree = "<group>"; };
+		840321BA2758E137009AB588 /* JobsMagicTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsMagicTextField.m; sourceTree = "<group>"; };
+		840321BB2758E137009AB588 /* JobsMagicTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsMagicTextField.h; sourceTree = "<group>"; };
+		84033B012758EB2E009AB588 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
 		840374FE274BD7C800D9079E /* SelectorBlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorBlockVC.m; sourceTree = "<group>"; };
 		840374FF274BD7C800D9079E /* SelectorBlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorBlockVC.h; sourceTree = "<group>"; };
 		84037501274BD7C800D9079E /* MKRankTBVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKRankTBVCell.h; sourceTree = "<group>"; };
@@ -269,9 +284,6 @@
 		840375C1274CA7F700D9079E /* DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineStructure.h; sourceTree = "<group>"; };
 		840375C2274CA7F700D9079E /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
 		840375C3274CA7F700D9079E /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
-		840375ED274CAF5500D9079E /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
-		840375EE274CAF5500D9079E /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
-		840375EF274CAF5500D9079E /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
 		8403765D274CB57700D9079E /* RACEXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACEXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		8403765E274CB57700D9079E /* RACEXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTScope.h; sourceTree = "<group>"; };
 		8403765F274CB57700D9079E /* RACmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACmetamacros.h; sourceTree = "<group>"; };
@@ -288,6 +300,11 @@
 		84037674274CB6B100D9079E /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
 		84037675274CB6B100D9079E /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
 		840377F6274CBD9000D9079E /* RAC_Define.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RAC_Define.md; sourceTree = "<group>"; };
+		8403F58E2758D1B9009AB588 /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
+		8403F58F2758D1B9009AB588 /* NSObject+WHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHToast.m"; sourceTree = "<group>"; };
+		8403F5902758D1B9009AB588 /* NSObject+WHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHToast.h"; sourceTree = "<group>"; };
+		8403F5922758D1B9009AB588 /* NSObject+NTESVerifyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NTESVerifyCode.h"; sourceTree = "<group>"; };
+		8403F5932758D1B9009AB588 /* NSObject+NTESVerifyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NTESVerifyCode.m"; sourceTree = "<group>"; };
 		8405F16E275888F100A9682A /* NSObject+AppTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AppTools.m"; sourceTree = "<group>"; };
 		8405F16F275888F100A9682A /* NSObject+AppTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppTools.h"; sourceTree = "<group>"; };
 		8405F170275888F100A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md"; sourceTree = "<group>"; };
@@ -591,19 +608,6 @@
 		84B3D58F274D30B50005DF73 /* BaseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewProtocol.h; sourceTree = "<group>"; };
 		84B3D591274D30B50005DF73 /* DebugLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogDescription.h; sourceTree = "<group>"; };
 		84B3D592274D30B50005DF73 /* DebugLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogDescription.m; sourceTree = "<group>"; };
-		84B3D596274D30B50005DF73 /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
-		84B3D597274D30B50005DF73 /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
-		84B3D59A274D30B50005DF73 /* HQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
-		84B3D59B274D30B50005DF73 /* HQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTextField.m; sourceTree = "<group>"; };
-		84B3D59D274D30B50005DF73 /* CJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
-		84B3D59E274D30B50005DF73 /* CJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextField.h; sourceTree = "<group>"; };
-		84B3D5A0274D30B50005DF73 /* ZYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
-		84B3D5A1274D30B50005DF73 /* ZYTextField.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYTextField.bundle; sourceTree = "<group>"; };
-		84B3D5A2274D30B50005DF73 /* ZYTextField+HistoryDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYTextField+HistoryDataList.m"; sourceTree = "<group>"; };
-		84B3D5A3274D30B50005DF73 /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
-		84B3D5A4274D30B50005DF73 /* ZYTextField+HistoryDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYTextField+HistoryDataList.h"; sourceTree = "<group>"; };
-		84B3D5A6274D30B50005DF73 /* JobsMagicTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsMagicTextField.m; sourceTree = "<group>"; };
-		84B3D5A7274D30B50005DF73 /* JobsMagicTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsMagicTextField.h; sourceTree = "<group>"; };
 		84B578CB27438E5000261BE9 /* UINavigationController+SafeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SafeTransition.h"; sourceTree = "<group>"; };
 		84B578CC27438E5000261BE9 /* UINavigationController+SafeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SafeTransition.m"; sourceTree = "<group>"; };
 		84B578D327438EB800261BE9 /* UIDevice+TYDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TYDeviceInfo.h"; sourceTree = "<group>"; };
@@ -731,6 +735,73 @@
 				F3943ADB027B2CA33CD63E6B /* Pods-Jobs_ObjectiveC_LaboratoryTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		840321A82758E136009AB588 /* UITextField+Category */ = {
+			isa = PBXGroup;
+			children = (
+				840321A92758E136009AB588 /* UITextField+Extend */,
+			);
+			path = "UITextField+Category";
+			sourceTree = "<group>";
+		};
+		840321A92758E136009AB588 /* UITextField+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				840321AA2758E136009AB588 /* UITextField+Extend.h */,
+				840321AB2758E136009AB588 /* UITextField+Extend.m */,
+			);
+			path = "UITextField+Extend";
+			sourceTree = "<group>";
+		};
+		840321AC2758E137009AB588 /* BaseTextField */ = {
+			isa = PBXGroup;
+			children = (
+				840321AD2758E137009AB588 /* HQTextField */,
+				840321B02758E137009AB588 /* CJTextField */,
+				840321B32758E137009AB588 /* ZYTextField */,
+				840321B92758E137009AB588 /* JobsMagicTextField */,
+			);
+			path = BaseTextField;
+			sourceTree = "<group>";
+		};
+		840321AD2758E137009AB588 /* HQTextField */ = {
+			isa = PBXGroup;
+			children = (
+				840321AE2758E137009AB588 /* HQTextField.h */,
+				840321AF2758E137009AB588 /* HQTextField.m */,
+			);
+			path = HQTextField;
+			sourceTree = "<group>";
+		};
+		840321B02758E137009AB588 /* CJTextField */ = {
+			isa = PBXGroup;
+			children = (
+				840321B12758E137009AB588 /* CJTextField.m */,
+				840321B22758E137009AB588 /* CJTextField.h */,
+			);
+			path = CJTextField;
+			sourceTree = "<group>";
+		};
+		840321B32758E137009AB588 /* ZYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				840321B42758E137009AB588 /* ZYTextField.m */,
+				840321B52758E137009AB588 /* ZYTextField.bundle */,
+				840321B62758E137009AB588 /* ZYTextField+HistoryDataList.m */,
+				840321B72758E137009AB588 /* ZYTextField.h */,
+				840321B82758E137009AB588 /* ZYTextField+HistoryDataList.h */,
+			);
+			path = ZYTextField;
+			sourceTree = "<group>";
+		};
+		840321B92758E137009AB588 /* JobsMagicTextField */ = {
+			isa = PBXGroup;
+			children = (
+				840321BA2758E137009AB588 /* JobsMagicTextField.m */,
+				840321BB2758E137009AB588 /* JobsMagicTextField.h */,
+			);
+			path = JobsMagicTextField;
 			sourceTree = "<group>";
 		};
 		840374FC274BD7BE00D9079E /* SelectorBlock */ = {
@@ -941,19 +1012,8 @@
 		840375EB274CAF5500D9079E /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
-				840375EC274CAF5500D9079E /* WHToast */,
 			);
 			path = PodsManual;
-			sourceTree = "<group>";
-		};
-		840375EC274CAF5500D9079E /* WHToast */ = {
-			isa = PBXGroup;
-			children = (
-				840375ED274CAF5500D9079E /* WHToast+DDToast.m */,
-				840375EE274CAF5500D9079E /* toastLoading.gif */,
-				840375EF274CAF5500D9079E /* WHToast+DDToast.h */,
-			);
-			path = WHToast;
 			sourceTree = "<group>";
 		};
 		8403765C274CB57700D9079E /* RAC定义 */ = {
@@ -1016,6 +1076,25 @@
 				84037675274CB6B100D9079E /* CADisplayLink_TimerManager.h */,
 			);
 			path = CADisplayLink_TimerManager;
+			sourceTree = "<group>";
+		};
+		8403F58D2758D1B9009AB588 /* NSObject+WHToast */ = {
+			isa = PBXGroup;
+			children = (
+				8403F58E2758D1B9009AB588 /* toastLoading.gif */,
+				8403F58F2758D1B9009AB588 /* NSObject+WHToast.m */,
+				8403F5902758D1B9009AB588 /* NSObject+WHToast.h */,
+			);
+			path = "NSObject+WHToast";
+			sourceTree = "<group>";
+		};
+		8403F5912758D1B9009AB588 /* NSObject+NTESVerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				8403F5922758D1B9009AB588 /* NSObject+NTESVerifyCode.h */,
+				8403F5932758D1B9009AB588 /* NSObject+NTESVerifyCode.m */,
+			);
+			path = "NSObject+NTESVerifyCode";
 			sourceTree = "<group>";
 		};
 		8405F16C275888F100A9682A /* AppTools */ = {
@@ -1138,14 +1217,16 @@
 		842F6FFE274E2062000E2DAE /* NSObject+Category */ = {
 			isa = PBXGroup;
 			children = (
-				84B3D555274D30B50005DF73 /* NSObject+Alert */,
-				84B3D55C274D30B50005DF73 /* NSObject+Others */,
-				84B3D575274D30B50005DF73 /* NSObject+DataSave */,
-				84B3D578274D30B50005DF73 /* NSObject+Time */,
-				84B3D57B274D30B50005DF73 /* NSObject+DataBinding */,
 				84B3D57E274D30B50005DF73 /* NSObject (Time) */,
-				84B3D584274D30B50005DF73 /* NSObject+DefConfig */,
+				84B3D555274D30B50005DF73 /* NSObject+Alert */,
 				84B3D587274D30B50005DF73 /* NSObject+CallBackInfoByBlock */,
+				84B3D57B274D30B50005DF73 /* NSObject+DataBinding */,
+				84B3D575274D30B50005DF73 /* NSObject+DataSave */,
+				84B3D584274D30B50005DF73 /* NSObject+DefConfig */,
+				8403F5912758D1B9009AB588 /* NSObject+NTESVerifyCode */,
+				84B3D55C274D30B50005DF73 /* NSObject+Others */,
+				84B3D578274D30B50005DF73 /* NSObject+Time */,
+				8403F58D2758D1B9009AB588 /* NSObject+WHToast */,
 			);
 			path = "NSObject+Category";
 			sourceTree = "<group>";
@@ -1368,6 +1449,7 @@
 		84B3D409274D30B40005DF73 /* JobsBaseCustomizeUIKitCore */ = {
 			isa = PBXGroup;
 			children = (
+				84033B012758EB2E009AB588 /* JobsBaseCustomizeUIKitCoreHeader.h */,
 				84B3D58A274D30B50005DF73 /* BaseProtocol */,
 				84B3D549274D30B50005DF73 /* CALayer */,
 				84B3D590274D30B50005DF73 /* DebugLogDescription */,
@@ -2740,77 +2822,10 @@
 		84B3D593274D30B50005DF73 /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
-				84B3D594274D30B50005DF73 /* UITextField+Category */,
-				84B3D598274D30B50005DF73 /* BaseTextField */,
+				840321AC2758E137009AB588 /* BaseTextField */,
+				840321A82758E136009AB588 /* UITextField+Category */,
 			);
 			path = UITextField;
-			sourceTree = "<group>";
-		};
-		84B3D594274D30B50005DF73 /* UITextField+Category */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D595274D30B50005DF73 /* UITextField+Extend */,
-			);
-			path = "UITextField+Category";
-			sourceTree = "<group>";
-		};
-		84B3D595274D30B50005DF73 /* UITextField+Extend */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D596274D30B50005DF73 /* UITextField+Extend.h */,
-				84B3D597274D30B50005DF73 /* UITextField+Extend.m */,
-			);
-			path = "UITextField+Extend";
-			sourceTree = "<group>";
-		};
-		84B3D598274D30B50005DF73 /* BaseTextField */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D599274D30B50005DF73 /* HQTextField */,
-				84B3D59C274D30B50005DF73 /* CJTextField */,
-				84B3D59F274D30B50005DF73 /* ZYTextField */,
-				84B3D5A5274D30B50005DF73 /* JobsMagicTextField */,
-			);
-			path = BaseTextField;
-			sourceTree = "<group>";
-		};
-		84B3D599274D30B50005DF73 /* HQTextField */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D59A274D30B50005DF73 /* HQTextField.h */,
-				84B3D59B274D30B50005DF73 /* HQTextField.m */,
-			);
-			path = HQTextField;
-			sourceTree = "<group>";
-		};
-		84B3D59C274D30B50005DF73 /* CJTextField */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D59D274D30B50005DF73 /* CJTextField.m */,
-				84B3D59E274D30B50005DF73 /* CJTextField.h */,
-			);
-			path = CJTextField;
-			sourceTree = "<group>";
-		};
-		84B3D59F274D30B50005DF73 /* ZYTextField */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D5A0274D30B50005DF73 /* ZYTextField.m */,
-				84B3D5A1274D30B50005DF73 /* ZYTextField.bundle */,
-				84B3D5A2274D30B50005DF73 /* ZYTextField+HistoryDataList.m */,
-				84B3D5A3274D30B50005DF73 /* ZYTextField.h */,
-				84B3D5A4274D30B50005DF73 /* ZYTextField+HistoryDataList.h */,
-			);
-			path = ZYTextField;
-			sourceTree = "<group>";
-		};
-		84B3D5A5274D30B50005DF73 /* JobsMagicTextField */ = {
-			isa = PBXGroup;
-			children = (
-				84B3D5A6274D30B50005DF73 /* JobsMagicTextField.m */,
-				84B3D5A7274D30B50005DF73 /* JobsMagicTextField.h */,
-			);
-			path = JobsMagicTextField;
 			sourceTree = "<group>";
 		};
 		84B578C927438E3A00261BE9 /* Testingx🎆 */ = {
@@ -3247,7 +3262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B3D629274D30B60005DF73 /* ZYTextField.bundle in Resources */,
 				84407C802754A71E00B9926E /* del_Photo@2x.png in Resources */,
 				84B3D5D8274D30B50005DF73 /* 移除 系统自带的 UITabBarButton in Resources */,
 				84B3D5DE274D30B50005DF73 /* 我为什么要这么做.md in Resources */,
@@ -3267,11 +3281,12 @@
 				84B3D606274D30B60005DF73 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md in Resources */,
 				84B3D5B3274D30B50005DF73 /* WhiteRightArrow@3x.png in Resources */,
 				84B3D60F274D30B60005DF73 /* UICollectionViewFlowLayout.md in Resources */,
-				840375F1274CAF5500D9079E /* toastLoading.gif in Resources */,
 				8405F175275888F100A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md in Resources */,
 				84407C7D2754A71E00B9926E /* RBCLikeButton.bundle in Resources */,
 				C54B002E2722E51400A438A7 /* Assets.xcassets in Resources */,
 				84B3D5DB274D30B50005DF73 /* UITextView+IndicateWordLimit.png in Resources */,
+				8403F5942758D1B9009AB588 /* toastLoading.gif in Resources */,
+				840321C02758E137009AB588 /* ZYTextField.bundle in Resources */,
 				84B3D604274D30B60005DF73 /* 专治UITableView相应链断裂.md in Resources */,
 				C54B00292722E51200A438A7 /* Main.storyboard in Resources */,
 			);
@@ -3451,8 +3466,10 @@
 				84B3D5FF274D30B50005DF73 /* TableViewAnimationKit.m in Sources */,
 				84B3D60C274D30B60005DF73 /* LMHWaterFallLayout.m in Sources */,
 				84407C7E2754A71E00B9926E /* RBCLikeButton.m in Sources */,
+				840321BE2758E137009AB588 /* CJTextField.m in Sources */,
 				84B3D5AA274D30B50005DF73 /* UIImage+SYS.m in Sources */,
 				84B3D5D4274D30B50005DF73 /* UIView+MJRefresh.m in Sources */,
+				8403F5952758D1B9009AB588 /* NSObject+WHToast.m in Sources */,
 				843AAC832747E1F8000228A0 /* NSString+TYHash.m in Sources */,
 				84407C7B2754A71E00B9926E /* SoundBtn.m in Sources */,
 				84037678274CB6B100D9079E /* Nanosecond_TimerManager.m in Sources */,
@@ -3467,6 +3484,7 @@
 				84B39D92274D024A0005DF73 /* SearchVC+VM.m in Sources */,
 				C54B00662722E57100A438A7 /* NoDataEmptyView.m in Sources */,
 				84B3D5FE274D30B50005DF73 /* BaseNavigationVC.m in Sources */,
+				840321C12758E137009AB588 /* ZYTextField+HistoryDataList.m in Sources */,
 				84E751CD274E00B00014B4F0 /* CLLanguageManager.m in Sources */,
 				84F49A752757631600358510 /* Employee.m in Sources */,
 				84B39D46274D01720005DF73 /* TestClass.m in Sources */,
@@ -3476,7 +3494,6 @@
 				84B3D5FC274D30B50005DF73 /* UIViewModel.m in Sources */,
 				C54B002C2722E51200A438A7 /* Jobs_ObjectiveC_Laboratory.xcdatamodeld in Sources */,
 				84B3D612274D30B60005DF73 /* BaseCollectionReusableView.m in Sources */,
-				84B3D62A274D30B60005DF73 /* ZYTextField+HistoryDataList.m in Sources */,
 				84B3D624274D30B60005DF73 /* DebugLogDescription.m in Sources */,
 				84B3D5D9274D30B50005DF73 /* UITextView+Extend.m in Sources */,
 				84B3D5DA274D30B50005DF73 /* UITextView+IndicateWordLimit.m in Sources */,
@@ -3493,10 +3510,12 @@
 				84B3D5AB274D30B50005DF73 /* UIImage+YBGIF.m in Sources */,
 				84B3D5E4274D30B50005DF73 /* BaseImageView.m in Sources */,
 				84407C822754A71E00B9926E /* UIButton+UI.m in Sources */,
+				840321BD2758E137009AB588 /* HQTextField.m in Sources */,
 				84B578E42743927900261BE9 /* YYFPSLabel.m in Sources */,
 				84B3D5F0274D30B50005DF73 /* UIViewController+EmptyData.m in Sources */,
 				84B578DE2743904700261BE9 /* UIViewController+DebugShow.m in Sources */,
 				84B39D85274D02190005DF73 /* FVC.m in Sources */,
+				840321BC2758E137009AB588 /* UITextField+Extend.m in Sources */,
 				84E6D52B2756576F002BB16E /* NSString+Replace.m in Sources */,
 				84B3D610274D30B60005DF73 /* CALayer+Transition.m in Sources */,
 				84B3D5CC274D30B50005DF73 /* UIView+Gradient.m in Sources */,
@@ -3513,7 +3532,6 @@
 				84B3D5C8274D30B50005DF73 /* UIView+SuspendView.m in Sources */,
 				84B3D5D7274D30B50005DF73 /* DeleteSystemUITabBarButton.m in Sources */,
 				84B3D620274D30B60005DF73 /* TimeModel.m in Sources */,
-				84B3D627274D30B60005DF73 /* CJTextField.m in Sources */,
 				84407C862754A71E00B9926E /* ButtonTimerConfigModel.m in Sources */,
 				C54B00652722E57100A438A7 /* DataTableViewController.m in Sources */,
 				844E518027550A3100A6EA94 /* UIViewController+Lottie.m in Sources */,
@@ -3521,7 +3539,6 @@
 				84B3D60A274D30B60005DF73 /* BaseTableViewFooterView.m in Sources */,
 				84037590274BD98300D9079E /* ButtonTimerVC.m in Sources */,
 				84407C852754A71E00B9926E /* UIButton+Timer.m in Sources */,
-				84B3D625274D30B60005DF73 /* UITextField+Extend.m in Sources */,
 				84B3D5CB274D30B50005DF73 /* UIView+Measure.m in Sources */,
 				84B39D82274D02190005DF73 /* SeacherFuncVC+Category.m in Sources */,
 				84B3D5C6274D30B50005DF73 /* TYFFSwizzle.m in Sources */,
@@ -3537,7 +3554,6 @@
 				84B3D5B1274D30B50005DF73 /* UITableViewCell+Margin.m in Sources */,
 				8416D12F274DFE79006DAE75 /* BWItemCollectionViewCell.m in Sources */,
 				84B3D5B5274D30B50005DF73 /* BaseTableViewCell.m in Sources */,
-				84B3D626274D30B60005DF73 /* HQTextField.m in Sources */,
 				84E6D5292756576F002BB16E /* NSString+Judgment.m in Sources */,
 				8405F72727588BAF00A9682A /* DDResponseModel.m in Sources */,
 				84B3D60D274D30B60005DF73 /* KFZShopCatoryFlowLayput.m in Sources */,
@@ -3545,6 +3561,7 @@
 				84B3D5B4274D30B50005DF73 /* UITableViewCell+WhiteArrows.m in Sources */,
 				84B3D5F3274D30B50005DF73 /* UIViewController+GifImageView.m in Sources */,
 				84B3D622274D30B60005DF73 /* NSObject+DefConfig.m in Sources */,
+				840321C22758E137009AB588 /* JobsMagicTextField.m in Sources */,
 				84407C812754A71E00B9926E /* LGiOSBtn.m in Sources */,
 				8416D12D274DFE79006DAE75 /* BWItemModel.m in Sources */,
 				84B578E52743927900261BE9 /* YYWeakProxy.m in Sources */,
@@ -3553,7 +3570,6 @@
 				84B3D615274D30B60005DF73 /* NSObject+OpenURL.m in Sources */,
 				84B3D619274D30B60005DF73 /* NSObject+Sound.m in Sources */,
 				84B3D600274D30B50005DF73 /* UITableView+XSAnimationKit.m in Sources */,
-				84B3D62B274D30B60005DF73 /* JobsMagicTextField.m in Sources */,
 				84E6D52A2756576F002BB16E /* NSString+FilteringSpecialCharacters.m in Sources */,
 				8416D13B274DFF85006DAE75 /* SuspendBtn.m in Sources */,
 				84B3D5F1274D30B50005DF73 /* UIViewController+Shake.m in Sources */,
@@ -3566,19 +3582,19 @@
 				84B3D5AD274D30B50005DF73 /* UIImage+Overlay.m in Sources */,
 				84B3D61E274D30B60005DF73 /* NSObject+Time.m in Sources */,
 				84E6D5232756576F002BB16E /* NSString+Conversion.m in Sources */,
+				840321BF2758E137009AB588 /* ZYTextField.m in Sources */,
 				84B3D602274D30B50005DF73 /* UITableView+WWFoldableTableView.m in Sources */,
 				84B39D84274D02190005DF73 /* TestBlock.m in Sources */,
 				84B39D83274D02190005DF73 /* TestView.m in Sources */,
 				84B3D5D5274D30B50005DF73 /* UIView+Extras.m in Sources */,
 				C54B00672722E57100A438A7 /* UITableView+ReloadData.m in Sources */,
+				8403F5962758D1B9009AB588 /* NSObject+NTESVerifyCode.m in Sources */,
 				84B3D5CA274D30B50005DF73 /* UIView+Gesture.m in Sources */,
 				84B3D5F4274D30B50005DF73 /* UIViewController+BaseNavigationBar.m in Sources */,
 				84B39D81274D02190005DF73 /* SeacherFuncVC.m in Sources */,
 				84B3D5EA274D30B50005DF73 /* XLBubbleTransition.m in Sources */,
-				840375F0274CAF5500D9079E /* WHToast+DDToast.m in Sources */,
 				84B39D90274D024A0005DF73 /* SearchVC.m in Sources */,
 				84B3D5E9274D30B50005DF73 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */,
-				84B3D628274D30B60005DF73 /* ZYTextField.m in Sources */,
 				84B3D5A8274D30B50005DF73 /* UIImage+ScreenShot.m in Sources */,
 				84E6D5242756576F002BB16E /* NSString+Others.m in Sources */,
 				84B3D611274D30B60005DF73 /* CALayer+Anim.m in Sources */,

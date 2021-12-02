@@ -8,6 +8,7 @@ target 'Jobs_ObjectiveC_Laboratory' do
   use_frameworks!
 
   # Pods for Jobs_ObjectiveC_Laboratory
+  pod 'NTESVerifyCode' # 网易验证码 https://github.com/yidun/NTESVerifyCode https://support.dun.163.com/documents/15588062143475712?docId=150442931089756160
   pod 'AFNetworking'
   pod 'lottie-ios', '~> 2.5.3'
   pod 'SPAlertController'# https://github.com/SPStore/SPAlertController 深度定制AlertController
