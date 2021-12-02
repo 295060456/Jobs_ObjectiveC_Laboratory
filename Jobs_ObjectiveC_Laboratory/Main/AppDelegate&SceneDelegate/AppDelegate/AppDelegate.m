@@ -42,7 +42,7 @@ static AppDelegate *static_appDelegate = nil;
         *stop = YES;
     }];
 }
-
+/// CoreData 有问题。期望封装成工具库
 -(void)testCoreData{
     
     /**
@@ -171,11 +171,11 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    NSManagedObjectContext *context = AppDelegate.sharedInstance.persistentContainer.viewContext;
     //Core Data 取出的实体都是 NSManagedObject 类型的
     
-    [self testCoreData];
+//    [self testCoreData];
 //    [self create];
 //    [self delete];
 //    [self update];
-    [self read];
+//    [self read];
     
     return YES;
 }
