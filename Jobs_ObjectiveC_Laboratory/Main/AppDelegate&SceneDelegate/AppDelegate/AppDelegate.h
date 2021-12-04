@@ -15,7 +15,6 @@
 
 @property(readonly,strong)NSPersistentContainer *persistentContainer;
 
-+(instancetype)sharedInstance;
 -(void)saveContext;
 
 @end

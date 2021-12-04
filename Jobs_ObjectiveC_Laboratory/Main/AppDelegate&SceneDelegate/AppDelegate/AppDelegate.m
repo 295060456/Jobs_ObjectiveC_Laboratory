@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 
+AppDelegate *appDelegate;
 @interface AppDelegate (){
     NSManagedObjectContext *context;
 }
@@ -15,13 +16,10 @@
 
 @implementation AppDelegate
 
-static AppDelegate *static_appDelegate = nil;
-+(instancetype)sharedInstance{
-    @synchronized(self){
-        if (!static_appDelegate) {
-            static_appDelegate = AppDelegate.new;
-        }
-    }return static_appDelegate;
+-(instancetype)init{
+    if (self = [super init]) {
+        appDelegate = self;
+    }return self;
 }
 
 -(void)testSQLToolTwo{
